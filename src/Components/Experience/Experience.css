@@ -1,0 +1,21 @@
+.experience{
+    display: flex;
+    justify-content: space-evenly;
+}
+.experience_data{
+    /* padding: 0 0 0rem 10rem; */
+    width: 30%;
+}
+.experience_data_subheading{
+    color: white;
+}
+.experience_data h3{
+    color: #DEE5EC;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0 0 0 4rem;
+}
+.resume img{
+    width: 100vm;
+    height: 500px;
+}

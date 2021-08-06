@@ -1,0 +1,16 @@
+.touch_data{
+    padding: 0 7rem 0rem 10rem;
+}
+.touch_data h2{
+    font-weight: 600;
+    color: white;
+}
+.touch_data h2 span{
+    font-weight: 400;
+    color: #BC8747;
+}
+.touch_data h2 a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #BC8747;
+}

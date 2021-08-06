@@ -1,0 +1,25 @@
+.project_section{
+    color: white;
+}
+.project_section_card {
+    padding: 0 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.project_section_card_data {
+    border-radius: 20px;
+    width: 45%;
+    padding: 1rem 1rem;
+    margin: 2rem 0;
+    background: linear-gradient(to right, rgb(212, 20, 90) 0%, rgb(251, 176, 59) 100%);
+}
+.project_section_card_name {
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: .5rem;
+}
+.project_section_card_description{
+    font-size: 1.2rem;
+    padding: 0 .7rem;
+}
