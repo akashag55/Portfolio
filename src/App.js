@@ -1,3 +1,4 @@
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Experience from './Components/Experience/Experience';
 import GetInTouch from './Components/GetInTouch/GetInTouch';
@@ -10,10 +11,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavigationBar/>
-        <Intro/>
-        <Projects/>
-        <Experience/>
-        <GetInTouch/>
+        <Switch>
+        <Route path={'/'} exact component={Intro}/>
+        <Route path={'/projects'} exact component={Projects}/>
+        <Route path={'/experience'} exact component={Experience}/>
+        <Route path={'/contact'} exact component={GetInTouch}/>
+          {/* <Projects/>
+          <Experience/>
+          <GetInTouch/> */}
+        </Switch>
       </header>
     </div>
   );
