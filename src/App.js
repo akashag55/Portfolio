@@ -11,15 +11,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavigationBar/>
-        <Switch>
-        <Route path={'/'} exact component={Intro}/>
-        <Route path={'/projects'} exact component={Projects}/>
-        <Route path={'/experience'} exact component={Experience}/>
-        <Route path={'/contact'} exact component={GetInTouch}/>
-          {/* <Projects/>
-          <Experience/>
-          <GetInTouch/> */}
-        </Switch>
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id='title'>
+          <Switch>
+          <Route path={'/'} exact component={Intro}/>
+          <Route path={'/projects'} exact component={Projects}/>
+          <Route path={'/experience'} exact component={Experience}/>
+          <Route path={'/contact'} exact component={GetInTouch}/>
+          </Switch>
+        </div>
       </header>
     </div>
   );
