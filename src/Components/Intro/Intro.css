@@ -18,8 +18,13 @@
     font-size: 1.5rem;
     font-weight: 400;
 }
+.intro_section_name i q{
+    color: #BC8747;
+    font-size: 18px;
+    font-weight: 600;
+}
 .intro_section_name button {
-    background: cornflowerblue;
+    background: #118AB2;
     border: none;
     border-radius: 22px;
     padding: .7rem 1rem;
