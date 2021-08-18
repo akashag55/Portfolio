@@ -1,6 +1,14 @@
 .project_section{
     color: #073B4C;
 }
+.project_section .note{
+    padding: 0 2rem;
+    color: white;
+    
+}
+.project_section .note span{
+    font-weight: 600;
+}
 .project_section_card {
     /* padding: 0 3rem; */
     display: flex;

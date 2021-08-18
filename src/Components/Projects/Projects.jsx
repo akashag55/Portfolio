@@ -34,6 +34,7 @@ function Projects() {
     return (
         <div className="project_section">
             <SectionHeading heading_name="Projects" />
+            <i><p className='note'><span>*Note:</span> Click on the card to see project</p></i>
             <div className="project_section_card">
                 {
                     project_list.map(project => 
