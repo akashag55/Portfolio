@@ -2,11 +2,10 @@
     display: flex;
     justify-content: space-around;
 }
-/* .experience{
-    display: flex;
-    justify-content: space-evenly;
+.experience{
+    padding: 0 0 0 2rem;
 }
-.experience_data{
+/* .experience_data{
     padding: 0 0 0rem 10rem;
     width: 30%;
 } */
@@ -22,4 +21,10 @@
 .resume img{
     width: 100vm;
     height: 500px;
+}
+
+@media only screen and (max-width: 1060px){
+    .edu_work{
+        flex-direction: column;
+    }
 }
