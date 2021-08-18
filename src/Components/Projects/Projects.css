@@ -1,5 +1,5 @@
 .project_section{
-    color: white;
+    color: #073B4C;
 }
 .project_section_card {
     padding: 0 7rem;
@@ -12,7 +12,14 @@
     width: 45%;
     padding: 1rem 1rem;
     margin: 2rem 0;
-    background: linear-gradient(to right, rgb(212, 20, 90) 0%, rgb(251, 176, 59) 100%);
+    /* background: linear-gradient(to right, rgb(255, 209, 102) 0%, rgb(6, 214, 160) 100%); */
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.project_section_card_data a {
+    text-decoration: none;
+    color: #073B4C;
 }
 .project_section_card_name {
     font-size: 1.7rem;

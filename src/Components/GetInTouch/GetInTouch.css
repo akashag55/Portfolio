@@ -1,3 +1,6 @@
+.contact_us{
+    display: flex;
+}
 .touch_data{
     padding: 0 7rem 0rem 10rem;
 }
@@ -13,4 +16,17 @@
     font-weight: 500;
     text-decoration: none;
     color: #BC8747;
+}
+.social_icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.social_icons img{
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 22px;
+    padding: .7rem;
+    margin: 1rem;
+    width: 45px;
+    height: 45px;
 }

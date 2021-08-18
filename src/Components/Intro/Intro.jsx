@@ -9,7 +9,7 @@ function Intro() {
                     <br/>
                 <i><q>To achieve peak excellence in my professional life and get a working environment where I can learn
                     and groom myself more to get an excellent status in the corporate world and society</q></i><br/><br/><br/>
-                    <a href='https://drive.google.com/file/d/1C1YVNvrD7Qq3AzGDsghVoqAHYGf3ssxi/view'><button>Download Resume</button></a>
+                    <a href='https://drive.google.com/file/d/1C1YVNvrD7Qq3AzGDsghVoqAHYGf3ssxi/view'><button>Resume</button></a>
             </div>
         </div>
     )
