@@ -86,3 +86,10 @@
       transform-origin: top;
     }
   }
+
+
+  @media only screen and (max-width: 600px){
+	.project_section_card_data{
+        width: 80%;
+    }
+}

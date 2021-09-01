@@ -11,15 +11,19 @@ function NavigationBar() {
             <ul className="navigationBar_list">
             <Link to ={'/'}>
                 <img src={user} alt='home'/>
+                <p>Home</p>
             </Link>
             <Link to ={'/projects'}>
                 <img src={[projects]} alt='projects'/>
+                <p>Projects</p>
             </Link>
             <Link to ={'/experience'}>
                 <img src={experience} alt='experience'/>
+                <p>Experience</p>
             </Link>
             <Link to ={'/contact'}>
                 <img src={contact} alt='contact'/>
+                <p>Get IN Touch</p>
             </Link>
                 {/* <li>Home</li>
                 <li>About</li>
