@@ -1,52 +1,19 @@
-.section_heading{
-    text-align: center;
-    color: white;
-    font-size: 3rem;
-    animation: myAnim 2s linear 0s 1 normal both;
-    /* padding: 5rem 7rem 0rem 3rem; */
+.section_heading {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  animation: myAnim ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 @keyframes myAnim {
-    0% {
-      animation-timing-function: ease-in;
-      opacity: 1;
-      transform: translateY(-45px);
-    }
-  
-    24% {
-      opacity: 1;
-    }
-  
-    40% {
-      animation-timing-function: ease-in;
-      transform: translateY(-24px);
-    }
-  
-    65% {
-      animation-timing-function: ease-in;
-      transform: translateY(-12px);
-    }
-  
-    82% {
-      animation-timing-function: ease-in;
-      transform: translateY(-6px);
-    }
-  
-    93% {
-      animation-timing-function: ease-in;
-      transform: translateY(-4px);
-    }
-  
-    25%,
-    55%,
-    75%,
-    87% {
-      animation-timing-function: ease-out;
-      transform: translateY(0px);
-    }
-  
-    100% {
-      animation-timing-function: ease-out;
-      opacity: 1;
-      transform: translateY(0px);
-    }
+  0% {
+    opacity: 0;
   }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
