@@ -1,69 +1,37 @@
-.navigationBar{
-    margin-left: 15px;
-    width: 18rem;
-    height: 4rem;
-    background-color: #EF476F;
-    border-radius:0 0 30px 30px;
+.navigationBar {
+  margin-left: 15px;
+  width: 18rem;
+  height: 4rem;
+  background-color: #ef476f;
+  border-radius: 0 0 30px 30px;
 }
-.navigationBar_list{
-    padding: 0;
-    margin: 0 0 0 18px;
+.navigationBar_list {
+  padding: 0;
+  margin: 0 0 0 18px;
 }
-.navigationBar_list svg{
-    padding: 1rem;
-    width: 30px;
-    height: 30px;
-    /* transition: transform .5s; */
+.navigationBar_list svg {
+  padding: 1rem;
+  width: 30px;
+  height: 30px;
 }
-/* .navigationBar_list svg:hover{
-    transform: scale(1.5)
-    animation: nav_item 2s ease-in-out 0s 1 normal both;
-} */
-.navigationBar_list p{
-    display: none;
+.navigationBar_list p {
+  display: none;
 }
 .navigationBar_list li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-/* 
-@keyframes nav_item {
-    0%,
-    100% {
-      transform: translateX(0);
-    }
-  
-    10%,
-    30%,
-    50%,
-    70% {
-      transform: translateX(-10px);
-    }
-  
-    20%,
-    40%,
-    60% {
-      transform: translateX(10px);
-    }
-  
-    80% {
-      transform: translateX(8px);
-    }
-  
-    90% {
-      transform: translateX(-8px);
-    }
-  } */
-
-
-@media only screen and (max-width: 600px){
-	.navigationBar{
-        margin-left: 0;
-        z-index: 111;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        border-radius: 0;
-    }
+@media only screen and (max-width: 600px) {
+  .navigationBar {
+    margin-left: 0;
+    z-index: 111;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-radius: 0;
+  }
+  .navigationBar_list svg {
+    padding: 1rem 1.5rem;
+  }
 }

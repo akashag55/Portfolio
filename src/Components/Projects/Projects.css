@@ -106,4 +106,7 @@
   .project_section_card_data {
     width: 80%;
   }
+  .project_section {
+    padding-bottom: 20%;
+  }
 }

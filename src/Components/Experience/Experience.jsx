@@ -14,7 +14,7 @@ function Experience() {
                         <h2 className = "experience_data_subheading">Higher Secondary Certificate :</h2>
                         <h3>62%</h3>
                         <h2 className = "experience_data_subheading">Bachlor of Technology (CS):</h2>
-                        <h3>64% (till 7th sem)</h3>
+                        <h3>64%</h3>
                     </div>
                 </div>
             </div>
