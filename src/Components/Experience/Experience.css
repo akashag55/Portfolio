@@ -1,30 +1,46 @@
-.edu_work{
+/* .edu_work{
     display: flex;
     justify-content: space-around;
-}
-.experience{
-    padding: 0 0 0 2rem;
+} */
+.experience {
+  padding: 0 0 0 2rem;
 }
 /* .experience_data{
     padding: 0 0 0rem 10rem;
     width: 30%;
 } */
-.experience_data_subheading{
-    color: white;
+.experience_data_subheading {
+  color: white;
 }
-.experience_data h3{
-    color: #BC8747;
-    font-size: 1.3rem;
-    font-weight: 400;
-    padding: 0 0 0 4rem;
+.experience_data {
+  display: flex;
+  justify-content: space-around;
 }
-.resume img{
-    width: 100vm;
-    height: 500px;
+.experience_data h3 {
+  color: #bc8747;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 0 0 0 2rem;
+}
+.resume img {
+  width: 100vm;
+  height: 500px;
 }
 
-@media only screen and (max-width: 1060px){
-    .edu_work{
-        flex-direction: column;
-    }
+.tech_skills {
+  display: flex;
+  padding: 1rem 5rem;
+  justify-content: space-around;
+}
+.tech_skills h3 {
+  color: #bc8747;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1060px) {
+  .experience_data {
+    flex-direction: column;
+  }
 }
