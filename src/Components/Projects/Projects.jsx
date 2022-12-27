@@ -50,6 +50,14 @@ function Projects() {
       link: "https://admin-panel-ott.netlify.app/",
       source: "https://github.com/akashag55/mentor-pannel",
     },
+    {
+      id: 6,
+      name: "Codex",
+      description:
+        "It is a powerful and user-friendly tool that helps people communicate with an AI chatbot in a natural and intuitive way.",
+      link: "https://codex-lovat.vercel.app/",
+      source: "https://github.com/akashag55/codex",
+    },
   ];
 
   return (
