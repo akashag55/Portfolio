@@ -29,6 +29,16 @@ const projects = [
     // github: 'https://github.com',
     // live: 'https://example.com',
   },
+  {
+    title: "CV Advisor",
+    description:
+      "A web app that provides real-time feedback on CVs, helping users improve their job applications.",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    technologies: ["Next JS", "Typescript", "Tailwind CSS", "OpenAI API"],
+    github: "https://github.com/akashag55/cv-compass-ai-advisor",
+    live: "https://ai-resumemate.vercel.app/",
+  },
 ];
 
 const Projects = () => {

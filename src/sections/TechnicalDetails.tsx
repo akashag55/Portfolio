@@ -5,25 +5,19 @@ import {
   Layout,
   Github as Git,
   PenTool as Tool,
+  Figma,
 } from "lucide-react";
 
 const skills = {
+  webDev: {
+    icon: <Layout size={24} />,
+    title: "Core Frontend",
+    items: ["HTML/CSS", "JavaScript", "TypeScript"],
+  },
   frameworks: {
     icon: <Code2 size={24} />,
     title: "Frameworks",
-    items: ["React.js", "Next.js", "Vue.js"],
-  },
-  webDev: {
-    icon: <Layout size={24} />,
-    title: "Web Development",
-    items: [
-      "HTML/CSS",
-      "JavaScript",
-      "TypeScript",
-      "Tailwind CSS",
-      "Bootstrap",
-      "Wordpress",
-    ],
+    items: ["React.js", "Next.js", "Vue.js", "Tailwind CSS", "Wordpress"],
   },
   backend: {
     icon: <Database size={24} />,
@@ -40,15 +34,28 @@ const skills = {
     title: "UI Libraries",
     items: ["Material UI", "Mantine UI", "Shadcn/ui"],
   },
+  uiux: {
+    icon: <Figma size={24} />,
+    title: "UI/UX",
+    items: ["Figma", "Responseive Design", "Cross-Browser Compatibility"],
+  },
   versionControl: {
     icon: <Git size={24} />,
-    title: "Version Control",
-    items: ["Git", "GitHub", "Bitbucket"],
-  },
-  tools: {
-    icon: <Tool size={24} />,
     title: "Tools & Others",
-    items: ["VS Code", "Postman", "Swagger", "Slack", "Jira", "Figma"],
+    items: ["Git", "GitHub", "PostMan", "Swagger", "Slack", "Jira"],
+  },
+  softSkills: {
+    icon: <Tool size={24} />,
+    title: "Soft Skills",
+    items: [
+      "Strong communication",
+      "Agile team collaboration",
+      "Problem-solving",
+      "Time management",
+      "Adaptability",
+      "Ownership",
+      "Mentoring juniors",
+    ],
   },
 };
 

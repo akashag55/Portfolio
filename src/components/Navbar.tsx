@@ -65,7 +65,7 @@ const Navbar = () => {
               {isDark ? <Sun size={20} /> : <Moon size={20} />}
             </button>
             <a
-              href="https://drive.google.com/file/d/1JUbUTCBbKGjPQ2u7uAZQjFiX0QX2MmbY/view?usp=sharing"
+              href="https://drive.google.com/file/d/1KP8GFw-dhfPwWRe7hxtCHXH-KeZU7nFb/view?usp=sharing"
               target="_blank"
               className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
             >

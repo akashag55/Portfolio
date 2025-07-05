@@ -3,15 +3,15 @@ import { Briefcase } from "lucide-react";
 const experiences = [
   {
     company: "PaveSoft Technologies",
-    position: "Senior Frontend Developer",
+    position: "Senior Software Engineer",
     startDate: "April 2024",
     endDate: "Present",
     description: [
-      "Managing multiple projects (2-3) simultaneously, effectively balancing priorities and meeting deadlines while delivering high-quality front-end development across all projects",
-      "Addressed complex front-end challenges, including performance optimization, resolving intricate UI/UX issues, and implementing new features based on client feedback.",
-      "Contributed to the development of a food delivery app for chicken and marinades, focusing on building intuitive user interfaces and optimizing the app’s performance for both mobile and desktop users",
-      "Worked on a desktop app for proctoring, focusing on performance optimization to ensure a seamless and efficient user experience.",
-      "Mentored junior developers and conducted code reviews",
+      "Leading multiple frontend projects simultaneously using React.js, Next.js, and Tailwind CSS",
+      "Built a full-featured food delivery platform with cart, payment, and user onboarding modules.",
+      "Optimized performance for a proctoring desktop app by reducing render time by 30% and memory usage by20%",
+      "Collaborated with cross-functional teams to resolve complex UI/UX bugs across devices.",
+      "Implemented clean architecture, reusable components, and custom hooks improving code reusability by 40%",
     ],
   },
   {
@@ -20,9 +20,10 @@ const experiences = [
     startDate: "Feb 2023",
     endDate: "March 2024",
     description: [
-      "Contributed significantly to a Network Management System project by focusing on front-end development, creating custom UI elements, dynamic screens, and reusable components to enhance efficiency and promote code reusability along with responsive design, cross-browser compatibility",
-      "Independently designed and developed a Content Management System (CMS) from the ground up, handling both front-end development and backend integration to deliver a fully functional, user-friendly platform.",
-      "Participated in agile development processes",
+      "Independently developed a fully functional Content Management System (CMS) with backend integration (Node.js, Prisma, PostgreSQL)",
+      "Designed and implemented responsive UI components using React.js, Mantine UI, and Figma",
+      "Played a key role in building a Network Management System with interactive dashboards and API integration.",
+      "Practiced Agile development using tools like Jira, GitLab, and conducted regular sprint demos",
     ],
   },
   {
