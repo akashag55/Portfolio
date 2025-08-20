@@ -1,3 +1,4 @@
+import { ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     title: "Expance Tracker",
@@ -33,11 +34,19 @@ const projects = [
     title: "CV Advisor",
     description:
       "A web app that provides real-time feedback on CVs, helping users improve their job applications.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    image: "",
     technologies: ["Next JS", "Typescript", "Tailwind CSS", "OpenAI API"],
     github: "https://github.com/akashag55/cv-compass-ai-advisor",
     live: "https://ai-resumemate.vercel.app/",
+  },
+  {
+    title: "Brick Breaker",
+    description:
+      "A classic arcade-style game where you use a paddle to bounce a ball and break all the bricks without losing all your lives. ",
+    image: "brick-breaker.png",
+    technologies: ["Next JS", "Typescript", "Tailwind CSS"],
+    github: "https://github.com/akashag55/brick-breaker",
+    live: "https://brick-breaker-aa1a.vercel.app/",
   },
 ];
 
@@ -54,7 +63,11 @@ const Projects = () => {
             className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-[1.02]"
           >
             <img
-              src={project.image}
+              src={
+                project.image.startsWith("http")
+                  ? project.image
+                  : `./assets/${project.image}`
+              }
               alt={project.title}
               className="w-full h-48 object-cover"
             />
@@ -75,7 +88,7 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              {/* <div className="flex gap-4 pt-4">
+              <div className="flex gap-4 pt-4">
                 <a
                   href={project.github}
                   target="_blank"
@@ -94,7 +107,7 @@ const Projects = () => {
                   <ExternalLink size={20} />
                   Live Demo
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         ))}
